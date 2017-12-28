@@ -1,0 +1,365 @@
+    body{font-family: 'Roboto', sans-serif;
+		     margin-left:0;
+			 margin-right:0;}
+		.nav ul{list-style-type: none;
+		    margin:0;
+		    padding: 0 2px;
+		    position: fixed;
+		    top: 0;
+		    width:100%;
+		    overflow: hidden;
+		    background-color: #333;}
+
+			.nav ul li{float: right;
+					}
+
+			.nav ul li a{display: block;
+					 color: white;
+					 text-align: center;
+					 padding: 3px 9px;
+					 text-decoration: none;}
+			.active{width:80%;
+					font-size:10px;
+					margin:0 auto;}
+		.search {overflow: hidden;
+				 background-color: #462c2cf2;}
+			.searched{width:80%;
+					  margin:0 auto;
+					  overflow: hidden;}
+
+			.search img {float: left;
+			           overflow: hidden;
+					   display: block;
+					   color: black;
+					   padding: 14px 0;
+					   text-decoration: none;
+					   font-size: 17px;}
+			.search .search-container button {float: center;
+											  padding: 6px 10px;
+											  margin-top: 8px;
+											  margin-right: 16px;
+										      background: #ddd;
+											  font-size: 17px;
+											  overflow: hidden;
+											  border: none;}
+			.search .search-container {float: center;
+										width:50%;
+										overflow: hidden;
+										margin:0 auto;}
+			.search-container select{float: left;
+							width: 11%;
+							color:white;
+							overflow:hidden;
+							margin-top: 14px;
+							height: 21px;
+							padding-left: 2px;
+							background-color: #d127efd9;}
+		.bricks{background-image: url('bricks.jpg');
+				background-repeat: repeat-x;
+				overflow: hidden;}
+			.images{width:100%;}
+				.images img{width: 4%;
+						overflow: hidden;
+ 						padding-left: 35%;
+ 				    	float: left;}
+ 			.para{width:40%;
+ 				  font-size: small;
+ 				  float: right;
+ 				  overflow: hidden;}
+ 				.para p{color: white;
+ 						overflow: hidden;
+ 						margin-top: 0;}
+ 			.sym{float: right;
+ 				 overflow: hidden;
+ 				 width:40%;}
+ 		.apply{background-color: #e9e9e9;
+ 				overflow: hidden;
+ 				border-bottom: 2px solid;}
+ 			.now{width: 80%;
+ 				 margin:0 auto;
+ 				 overflow: hidden;}
+ 				 .hot{width: 9%;
+ 				 	  margin-left: 1%;
+ 				 	  overflow: hidden;
+ 				 	  float: left;
+ 				 	  font-style: bold;
+    				  font-size: 9px;
+   				 	  }
+   				 .hot p:first-child{margin-bottom: 0;}
+   				 .hot p:last-child{margin-top: 0;}
+   			.apply_now{overflow: hidden;
+   						border-left: 2px solid white;}
+   				.apply_now i:first-child{float: left;
+   										 margin-left: 8px;
+  										  margin-top: 10px;
+ 										   font-size: 19px;}
+   				.apply1{width:35%;
+   						margin-left: 6%;
+   						font-size: 11px;
+   						float: left;
+   						overflow: hidden;}
+ 				.apply1 p{color:#d127efd9;
+ 			    			margin-top: 6px;
+   						  margin-bottom: 0;}
+   					.place p{width: 12%;
+   							 color: #544d4dd6;
+    						 margin-right: 65%;
+   							 float: left;}
+   					.place h5{font-style: bold;
+   								float: right;}
+   				.apply2{width:22%;
+   						margin-left: 2%;
+   						font-size: 11px;
+   						float: left;
+   						overflow: hidden;}
+   				.apply2 p{color:#d127efd9;
+   						margin-top: 6px;
+   						margin-bottom: 0;}
+   					.place1 p{width: 12%;
+   							 color: #544d4dd6;
+    						 margin-right: 56%;
+   							 float: left;}
+   					.place1 h5{font-style: bold;
+   								float: right;}
+   				.apply3{width:24%;
+   						margin-left: 2%;
+   						font-size: 11px;
+   						float: left;
+   						overflow: hidden;
+   						margin-right: 6%;}
+   				.apply3 p{color:#d127efd9;
+   						  margin-top: 6px;
+   						 margin-bottom: 0;}
+   					.place2 p{width: 12%;
+   							 color: #544d4dd6;
+    						 margin-right: 48%;
+   							 float: left;}
+   					.place2 h5{font-style: bold;
+   								float: right;}
+   				.apply_now i:last-child{float: left;
+  										  margin-top: 10px;
+ 										   font-size: 19px;}
+ 	.premium{border-bottom: 2px solid;}
+
+ 	.pre{width:80%;
+ 			 overflow: hidden;
+ 			 margin:0 auto;
+ 		}
+ 		.pic img{float: left;
+ 				  padding-top: 1%;
+ 				 overflow: hidden;
+ 				 }
+ 		.pic1{overflow: hidden;
+ 			margin-left: 14%;}
+     	.simi_photo{ background-color: #e9e9e9;
+    				overflow: hidden;
+					margin-bottom: 0;
+					padding-bottom:1%;
+					border-left: 2px solid;}
+			.simi_photo i:first-child{float: left;
+				           margin-top: 9%;
+				           margin-left: 7%;
+							}
+			.simi_photo h5{margin-top:0;
+				 margin-bottom: 0;
+				margin-left:38%;}
+			.simi_photo h5::first-letter{font-family:'Sacramento', cursive;
+										color:#d127efd9;
+										font-size:31px;
+										}
+		.simi_photo img{padding-right:2%;
+						 padding-left: 2.5%;
+						overflow: hidden;}
+			.simi_photo i:last-child{float: right;
+			  				 margin-top: -6.6%;
+    							margin-right: 7%;
+    							overflow: hidden;
+							}
+			.simi_photo h6{ margin: 5px 0;
+							color:#d127efd9;
+    						padding-left: 77%;}
+		.white{border-bottom: 2px solid;}
+		.star{width:80%;
+			  margin: 0 auto;
+			}
+			.pro{ margin-left: 15%;
+   					 width: 82%;
+   					 overflow: hidden;}
+   			.pro h6{  margin: 5px 0;
+   					 color:#d127efd9;
+    				padding-left: 74%;}
+			.star h5{text-align: center;
+					 margin: 0;
+					padding-right: 15%;}
+			.star h5::first-letter{font-family:'Sacramento', cursive;
+										color:#d127efd9;
+										font-size:31px;
+									}
+			.star i:first-child{float: left;
+					margin-top: 10%;}
+			.star1{float:left;
+				   margin-right: 7%;}
+			.star1 img{width:100%;}
+			.star1 p{font-size: small;
+					  color:#d127efd9;
+					 margin-bottom: 0;
+					 margin-top:0;}
+			.star i:last-child{float: right;
+								margin-top: -9%;}
+
+			.ourr{ overflow: hidden;
+				  margin:0 6%;}
+				.our{border-bottom: 2px solid;
+					 overflow: hidden;}
+				.association{width:50%;
+							 overflow: hidden;
+							 margin: 0 auto;
+							 float: left;}
+				.ass{width:80%;
+					  padding-right: 3%;
+					 overflow: hidden;
+					 margin:0 auto;
+					 border-right: 2px solid;}
+				.ass img{margin-left: 10%;}
+				.ass h5{text-align: center;
+					 margin: 0;
+					overflow: hidden;}
+			.ass h5::first-letter{font-family:'Sacramento', cursive;
+										color:#d127efd9;
+										overflow: hidden;
+										font-size:31px;
+									}
+				.left i{float:left;
+				         padding-top: 13%;}
+								.ass{width:80%;
+					 overflow: hidden;
+					 margin:0 auto;
+					 border-right: 2px solid;}
+				.right i{float: right;
+					      padding-top: 11%;}
+				.assosi{float: left;
+					    width:85%;
+						margin-left: 10%;}
+
+				.association1{width:50%;
+							 overflow: hidden;
+							 margin: 0 auto;
+							 float: left;}
+				.ass1{width:80%;
+					 overflow: hidden;
+					 margin:0 auto;
+					 }
+				.ass1 img{margin-left: 10%;}
+				.ass1 h5{text-align: center;
+					 margin: 0;
+					overflow: hidden;}
+			.ass1 h5::first-letter{font-family:'Sacramento', cursive;
+										color:#d127efd9;
+										overflow: hidden;
+										font-size:31px;
+									}
+				.ass h6{    margin: 5px 0;
+							color: #d127efd9;
+    						padding-left: 59%;}
+				.left1 i{float:left;
+				         padding-top: 13%;}
+								.ass{width:80%;
+					 overflow: hidden;
+					 margin:0 auto;
+					 border-right: 2px solid;}
+				.right1 i{float: right;
+					      padding-top: 11%;}
+				.assosi1{float: left;
+					    width:85%;
+						margin-left: 9%;}
+				.ass1 h6{    margin: 5px 0;
+							color: #d127efd9;
+    						padding-left: 59%;}
+    	.video{overflow: hidden;
+				 background-color: #462c2cf2;
+				 color: white;}
+    	.vid{overflow: hidden;;
+    		 width:80%;
+    		 margin:0 auto;
+    		}
+    		.vid h5{text-align: center;
+					 margin: 0;}
+			.vid h5::first-letter{font-family:'Sacramento', cursive;
+										color:#d127efd9;
+										font-size:31px;}
+				.videos{float: left;
+					    padding-left:0;
+						overflow: hidden;}
+				.lefts1 i{float:left;
+				         padding-top: 5%;}
+								.ass{width:80%;
+					 overflow: hidden;
+					 margin:0 auto;
+					 border-right: 2px solid;}
+				.rights1 i{float: right;
+							overflow: hidden;
+					      padding-top: 5%;}
+				.vidimg{float: left;
+						width: 40%;
+					    overflow: hidden;}
+					.vidimg img{width:100%;}
+					.vid_p{font-size: small;
+						    float: left;
+						        margin-top: 65px;
+ 						   margin-left: 5px;
+							width:44%;}
+					.vid_p p{margin: 0;}
+					.vide{ margin-left: 2%;}
+					
+.foot{background-color:#9a9595;
+			overflow:hidden;
+			margint-top:5px;}
+			.foots{width:47%;
+				   overflow:hidden;}
+			.foots ul li{float: left;
+						 overflow:hidden;
+						list-style-type:none;}
+
+			.foots ul li a{display: block;
+					 color: white;
+					 overflow:hidden;
+					 text-align: center;
+					 padding: 3px 9px;
+					 text-decoration: none;}
+			.act{width:80%;
+				overflow:hidden;
+				font-size:10px;
+				}
+			.hr1{overflow:hidden;
+				 width:40%;
+				 float:left;}
+			.hr2{overflow:hidden;
+				 width:40%;
+				 float:left;}
+			.logo{float:left;
+				  width:20%;
+				  overflow:hidden;}
+			.social{overflow:hidden;
+					padding-left:41%;
+					}
+			.social i{font-size:230%;
+						padding-right:3%;}
+			.copy p{color: white;
+				  font-size: 10px;
+				  padding-left: 42%;}
+			.copys p{color:white;
+					 font-size:10px;
+					width: 80%;
+					margin-bottom:0;
+					margin-left: 12%;}
+			.copp p{color:white;
+					margin-top:0;
+					 font-size:10px;
+					width: 80%;
+					    padding-left: 21%;
+					margin-left: 12%;}
+			.foo{width:80%;
+				margin: 0 auto;
+			}
+			hr{border-bottom-color:#d127efd9;
+				   border-top-color:#d127efd9;}
